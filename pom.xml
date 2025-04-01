@@ -11,7 +11,7 @@
 
     <name>bedrock-util</name>
     <description>the util module of the bedrock(toolkit for quick development)</description>
-    <url>https://github.com/RabbitNoTeeth/bedrock-util</url>
+    <url>https://github.com/RabbitNoTeeth/bedrock-core</url>
 
     <licenses>
         <license>
@@ -20,12 +20,12 @@
         </license>
     </licenses>
 
-    <developers>
-        <developer>
-            <name>RabbitNoTeeth</name>
-            <email>RabbitNoTeeth@163.com</email>
-        </developer>
-    </developers>
+<!--    <developers>-->
+<!--        <developer>-->
+<!--            <name>RabbitNoTeeth</name>-->
+<!--            <email>RabbitNoTeeth@163.com</email>-->
+<!--        </developer>-->
+<!--    </developers>-->
 
 <!--    <scm>-->
 <!--        <connection>scm:git:git@gitee.com:RabbitNoTeeth/bedrock-util.git</connection>-->
