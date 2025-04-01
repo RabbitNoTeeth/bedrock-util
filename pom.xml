@@ -11,7 +11,7 @@
 
     <name>bedrock-util</name>
     <description>the util module of the bedrock(toolkit for quick development)</description>
-    <url>https://github.com/RabbitNoTeeth/bedrock-core</url>
+    <url>https://github.com/RabbitNoTeeth/bedrock-util</url>
 
     <licenses>
         <license>
