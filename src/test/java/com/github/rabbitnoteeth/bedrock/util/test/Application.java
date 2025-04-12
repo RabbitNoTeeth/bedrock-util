@@ -8,19 +8,25 @@ import com.github.rabbitnoteeth.bedrock.util.schedule.Job;
 import com.github.rabbitnoteeth.bedrock.util.schedule.JobDetail;
 import com.github.rabbitnoteeth.bedrock.util.schedule.Scheduler;
 import com.github.rabbitnoteeth.bedrock.util.test.schedule.TestJob;
+import org.apache.logging.log4j.core.config.Configurator;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 
 public class Application {
 
+    private static final Logger LOGGER = LoggerFactory.getLogger(Application.class);
+
     public static void main(String[] args) throws Exception {
 //        testSchedule();
 //        testExecutor();
-//        testLogback();
+        testLog();
 //        testBeanUtils();
 //        testClass();
 
-        testValidate();
+//        testValidate();
     }
 
     private static void testValidate() {
@@ -28,8 +34,9 @@ public class Application {
         System.out.println(a instanceof Integer);
     }
 
-    private static void testLogback() throws Exception {
-        LogUtils.loadConfiguration(Application.class.getClassLoader().getResourceAsStream("logback-dev.xml"));
+    private static void testLog() throws Exception {
+        LOGGER.info("this is {} log", "log4j2");
+//        LogUtils.loadConfiguration(Application.class.getClassLoader().getResourceAsStream("logback-dev.xml"));
     }
 
     private static void testClass() {
